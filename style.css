@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    direction: ltr;
+}
+
+.form {
+    width: 100%;
+    height: 100vh; /* height given for illustration */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.btnStyle {
+    width: auto;
+    height: auto;
+    background-color: orangered;
+    border: none;
+    margin: 7px;
+    border-radius: 5px;
+    flex: 1 0 19%; /* <-- adjusting for margin */
+}
+.btnStyle:hover{
+    background-color: orangered;
+    filter: opacity(0.6);
+}
+.first{
+    margin-top: 15px;
+}
+.last{
+    margin-bottom: 15px;
+}
